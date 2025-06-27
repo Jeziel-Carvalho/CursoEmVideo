@@ -1,2 +1,2 @@
-# CursoEmVideo
+# CursoEmVideo - Python
 Exercícios de Python
