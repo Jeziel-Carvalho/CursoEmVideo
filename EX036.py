@@ -26,7 +26,7 @@ print('Gerando resultado...')
 sleep(3)
 
 #Condição de aprovação
-if mensal<porcento:
-    print('Emprestimo recusado, parcela excede 30%.')
+if mensal>porcento:
+    print(f'Emprestimo recusado, parcela em {mensal:.2f} excedendo 30%.')
 else:
-    print('Emprestimo aprovado, parcela em conforme.')
+    print(f'Emprestimo aprovado, parcela em {mensal:.2f}.')
